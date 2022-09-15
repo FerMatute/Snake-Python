@@ -9,9 +9,8 @@ Exercises
 """
 
 from random import randrange
-from turtle import Turtle, setup, hideturtle, tracer
-from turtle import Turtle, listen, onkey, clear, update, ontimer, done
-
+from turtle import Turtle, setup, hideturtle, tracer, listen, onkey, clear
+from turtle import update, ontimer, done
 from freegames import square, vector
 
 food = vector(0, 0)
@@ -59,7 +58,7 @@ def move():
     ontimer(move, 100)
 
 
-setup(420, 420, 370, 0)  
+setup(420, 420, 370, 0)
 hideturtle()
 tracer(False)
 listen()
