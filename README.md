@@ -1,4 +1,4 @@
-# SemanaTec_Act4
+# Snake Python
 
 ### Fernando Josué Matute Soto - A00833375
 
